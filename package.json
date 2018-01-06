@@ -1,0 +1,38 @@
+{
+  "name": "iso_testing2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client-index.js",
+  "scripts": {
+    "prestart": "./node_modules/.bin/webpack --progress",
+    "start": "./node_modules/.bin/babel-node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "i": "^0.3.6",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "webpack": "^3.10.0"
+  }
+}
